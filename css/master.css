@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .row{
+        @apply flex flex-wrap w-full
+    }
+}
